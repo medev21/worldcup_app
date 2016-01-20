@@ -2,10 +2,15 @@ var express = require('express');
 
 var app = express();
 
+app.set('view engine', 'ejs');
 //routes
 // home
 app.get('/', function(req,res){
-  res.send('this is the server response on the home page');
+  // res.send('this is the server response on the home page');
+  res.render('home',{
+    title: 'Worlcup page',
+    tournaments: ["the first cup", "the second cup", "the third cup"]
+  });
 });
 
 //worldcup_single
