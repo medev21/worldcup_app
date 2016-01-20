@@ -1,0 +1,14 @@
+{
+  "name": "world_cup_app",
+  "version": "1.0.0",
+  "description": "a site that displays each worldcup and description",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
