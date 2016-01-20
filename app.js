@@ -1,28 +1,21 @@
-var express = require('express');
+var express = require('express'); //calls express module
+var routes = require('./routes'); //calls the require folder
+var path = require('path');
 
 var app = express();
 
 app.set('view engine', 'ejs');
+app.use(express.static(path.join(__dirname, 'public')));
+
 //routes
 // home
-app.get('/', function(req,res){
-  // res.send('this is the server response on the home page');
-  res.render('home',{
-    title: 'Worlcup page',
-    tournaments: ["the first cup", "the second cup", "the third cup"]
-  });
-});
+app.get('/', routes.home);
 
 //worldcup_single
-app.get('/world_cup_single/:worldcup_number?', function(res, req){
-  var worldcup_number = req.params.worldcup_number;
-  res.send('this is the page for worlcup' + worldcup_number);
-});
+app.get('/world_cup_single/:worldcup_year?', routes.worldcup_single);
 
 //not found page
-app.get('*', function(req, res){
-  res.send('page not found');
-});
+app.get('*', routes.not_found);
 
 //display message in the terminal
 app.listen(3000, function(){
