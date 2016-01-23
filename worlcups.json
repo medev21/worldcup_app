@@ -1,11 +1,11 @@
 {
-  "worlcups" : [{
+  "worldcups" : [{
     "title" : "1970 FIFA Worldcup",
     "host" : "Mexico",
     "year" : "1970",
     "champions" : "Brasil",
     "champion_img" : "1970_brasil.jpg",
-    "poster_image" : "1970_poster.jpg"
+    "poster" : "1970_poster.jpg"
   },
 
   {
@@ -14,7 +14,7 @@
     "year" : "1974",
     "champions" : "Germany",
     "champion_img" : "1974_germany.jpg",
-    "poster_image" : "1974_poster.jpg"
+    "poster" : "1974_poster.jpg"
   },
 
   {
@@ -23,7 +23,7 @@
     "year" : "1978",
     "champions" : "Argentina",
     "champion_img" : "1978_argentina.jpg",
-    "poster_image" : "1978_poster.jpg"
+    "poster" : "1978_poster.jpg"
   }
     ]
 }

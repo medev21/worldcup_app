@@ -1,9 +1,14 @@
+var worldcupsJson = require('../worlcups.json');
+
 //routes
 // home
 exports.home = function(req,res){
   // res.send('this is the server response on the home page');
+
+  var worldcups = worldcupsJson.worldcups
   res.render('home',{
-    title: 'Worlcup page'
+    title: 'Worlcup page',
+    worldcups: worldcups
   });
 };
 
