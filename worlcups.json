@@ -4,17 +4,17 @@
     "host" : "Mexico",
     "year" : "1970",
     "champions" : "Brasil",
-    "champion_img" : "Brasil_flag.jpg",
-    "poster_image" : "1970_image.jpg"
+    "champion_img" : "1970_brasil.jpg",
+    "poster_image" : "1970_poster.jpg"
   },
 
   {
     "title" : "1974 FIFA Worldcup",
     "host" : "Germany",
     "year" : "1974",
-    "champions" : "Brasil",
-    "champion_img" : "Germany_flag.jpg",
-    "poster_image" : "1974_image.jpg"
+    "champions" : "Germany",
+    "champion_img" : "1974_germany.jpg",
+    "poster_image" : "1974_poster.jpg"
   },
 
   {
@@ -22,8 +22,8 @@
     "host" : "Argentina",
     "year" : "1978",
     "champions" : "Argentina",
-    "champion_img" : "Argentina_flag.jpg",
-    "poster_image" : "1978_image.jpg"
+    "champion_img" : "1978_argentina.jpg",
+    "poster_image" : "1978_poster.jpg"
   }
     ]
 }
