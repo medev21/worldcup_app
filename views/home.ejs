@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <% include partials/header.ejs %>
+    <% include partials/head.ejs %>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <%# <h1>Hello, world!</h1>%>
+    <% include partials/header.ejs %>
+    
 
     <% for(var i=0; i < worldcups.length; i++){ %>
       <img src="images/<%= worldcups[i].poster %>" alt="" class="img-responsive"/>
