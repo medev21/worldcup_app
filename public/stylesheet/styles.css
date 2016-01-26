@@ -1,4 +1,42 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
 .content-padding{
   padding-left: 11%;
   padding-right: 11%;
+}
+
+header{
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  background-image: url('../images/fifa_cup.jpg');
+  background-position: center;
+  background-size: cover;
+
+  padding: 100px 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*section{
+  padding: 100px 0;
+}*/
+
+@media (min-width: 768px){
+  /*header{
+    position: absolute;
+    }*/
+
+  header, #main{
+    min-height: 100%;
+    }
+
+  img{
+    height: 80%;
+    width: 80%;
+  }
 }
