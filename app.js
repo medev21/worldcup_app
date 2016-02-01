@@ -18,6 +18,8 @@ app.get('/world_cup_single/:worldcup_year?', routes.worldcup_single);
 app.get('*', routes.not_found);
 
 //display message in the terminal
-app.listen(3000, function(){
-  console.log('the server is running on localhost:3000');
-});
+// app.listen(3000, function(){
+//   console.log('the server is running on localhost:3000');
+// });
+
+app.listen(process.env.PORT || 3000);
