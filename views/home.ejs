@@ -20,9 +20,15 @@
         <div class="container">
           <div class="row">
             <% for(var i=0; i < worldcups.length; i++){ %>
-              <div class="col-sm-4">
-                <img src="images/<%= worldcups[i].poster %>" alt="" class="img-responsive img-rounded poster"/>
-              </div>
+              <a href="/world_cup_single/<%= worldcups[i].year %>">
+                <div class="col-sm-4">
+                  <img src="images/<%= worldcups[i].poster %>" alt="" class="img-responsive img-rounded poster"/>
+                  <div class="poster-overlay">
+                    <h2><%= worldcups[i].year %></h2>
+                    <h3>View More <i class="fa fa-arrow-right"></i>
+                  </div>
+                </div>
+              </a>
             <% } %>
           </div>
         </div>
