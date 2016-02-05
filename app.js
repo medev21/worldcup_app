@@ -15,7 +15,7 @@ app.get('/', routes.home);
 app.get('/world_cup_single/:worldcup_year?', routes.worldcup_single);
 
 //not found page
-app.get('*', routes.not_found);
+app.get('*', routes.notFound);
 
 //display message in the terminal
 // app.listen(3000, function(){

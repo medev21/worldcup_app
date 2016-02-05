@@ -37,13 +37,21 @@ exports.worldcup_single = function(req, res){
       worldcup: worldcup
     });
   }else{
-    res.send("this is not the page you are looking!");
+    // res.send("this is not the page you are looking!");
+    res.render('notFound.ejs',{
+      worldcups: worldcups,
+      title: "This not the page you are looking for!"
+    });
 
   }
 
 };
 
 //not found page
-exports.not_found = function(req, res){
-  res.send('page not found');
+exports.notFound = function(req, res){
+  var worldcups = worldcupsJson.worldcups;
+  res.render('notFound.ejs',{
+    worldcups: worldcups,
+    title: "This not the page you are looking for!"
+  });
 };
