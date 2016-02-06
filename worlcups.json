@@ -1,11 +1,83 @@
 {
   "worldcups" : [{
+    "title" : "1930 FIFA Worldcup",
+    "host" : "Uruguay",
+    "year" : "1930",
+    "champions" : "Uruguay",
+    "champion_img" : "http://img.fifa.com/mm/photo/archivedtournament/summaries/52/31/19/523119_big-lnd.jpg",
+    "poster" : "1970_poster.jpg"
+  },
+
+  {
+    "title" : "1934 FIFA Worldcup",
+    "host" : "Italy",
+    "year" : "1934",
+    "champions" : "Italy",
+    "champion_img" : "http://img.fifa.com/mm/photo/archivedtournament/summaries/52/29/16/522916_big-lnd.jpg",
+    "poster" : "1974_poster.jpg"
+  },
+
+  {
+    "title" : "1938 FIFA Worldcup",
+    "host" : "France",
+    "year" : "1938",
+    "champions" : "Italy",
+    "champion_img" : "http://img.fifa.com/mm/photo/archivedtournament/summaries/52/29/12/522912_big-lnd.jpg",
+    "poster" : "1978_poster.jpg"
+  },
+
+  {
+    "title" : "1950 FIFA Worldcup",
+    "host" : "Brasil",
+    "year" : "1950",
+    "champions" : "Uruguay",
+    "champion_img" : "http://img.fifa.com/mm/photo/archivedtournament/summaries/51/23/07/512307_big-lnd.jpg",
+    "poster" : "1974_poster.jpg"
+  },
+
+  {
+    "title" : "1954 FIFA Worldcup",
+    "host" : "Switzerland",
+    "year" : "1954",
+    "champions" : "West Germany",
+    "champion_img" : "http://img.fifa.com/mm/photo/archivedtournament/summaries/51/51/51/515151_full-lnd.jpg",
+    "poster" : "1978_poster.jpg"
+  },
+
+  {
+    "title" : "1958 FIFA Worldcup",
+    "host" : "Sweden",
+    "year" : "1958",
+    "champions" : "Brasil",
+    "champion_img" : "http://img.fifa.com/mm/photo/archivedtournament/summaries/51/51/42/515142_big-lnd.jpg",
+    "poster" : "1974_poster.jpg"
+  },
+
+  {
+    "title" : "1962 FIFA Worldcup",
+    "host" : "Chile",
+    "year" : "1962",
+    "champions" : "Brasil",
+    "champion_img" : "http://img.fifa.com/mm/photo/archivedtournament/summaries/51/21/59/512159_full-lnd.jpg",
+    "poster" : "1978_poster.jpg"
+  },
+
+  {
+    "title" : "1966 FIFA Worldcup",
+    "host" : "England",
+    "year" : "1966",
+    "champions" : "England",
+    "champion_img" : "http://img.fifa.com/mm/photo/archivedtournament/summaries/51/95/02/519502_xbig-lnd.jpg",
+    "poster" : "1974_poster.jpg"
+  },
+
+  {
     "title" : "1970 FIFA Worldcup",
     "host" : "Mexico",
     "year" : "1970",
     "champions" : "Brasil",
-    "champion_img" : "1970_brasil.jpg",
-    "poster" : "1970_poster.jpg"
+    "champion_img" : "http://img.fifa.com/mm/photo/archivedtournament/summaries/51/49/52/514952_full-lnd.jpg",
+    "poster" : "1978_poster.jpg"
   },
 
   {
@@ -13,7 +85,7 @@
     "host" : "Germany",
     "year" : "1974",
     "champions" : "Germany",
-    "champion_img" : "1974_germany.jpg",
+    "champion_img" : "http://img.fifa.com/mm/photo/archivedtournament/summaries/51/84/93/518493_full-lnd.jpg",
     "poster" : "1974_poster.jpg"
   },
 
@@ -22,8 +94,89 @@
     "host" : "Argentina",
     "year" : "1978",
     "champions" : "Argentina",
-    "champion_img" : "1978_argentina.jpg",
+    "champion_img" : "http://img.fifa.com/mm/photo/archivedtournament/summaries/51/96/36/519636_xbig-lnd.jpg",
     "poster" : "1978_poster.jpg"
+  },
+
+  {
+    "title" : "1982 FIFA Worldcup",
+    "host" : "Spain",
+    "year" : "1982",
+    "champions" : "Italy",
+    "champion_img" : "http://img.fifa.com/mm/photo/archivedtournament/summaries/52/09/07/520907_xbig-lnd.jpg",
+    "poster" : "1974_poster.jpg"
+  },
+
+  {
+    "title" : "1986 FIFA Worldcup",
+    "host" : "Mexico",
+    "year" : "1986",
+    "champions" : "Argentina",
+    "champion_img" : "http://img.fifa.com/mm/photo/classic/players/51/52/22/515222_xbig-lnd.jpg",
+    "poster" : "1978_poster.jpg"
+  },
+
+  {
+    "title" : "1990 FIFA Worldcup",
+    "host" : "Italy",
+    "year" : "1990",
+    "champions" : "Germany",
+    "champion_img" : "http://img.fifa.com/mm/photo/archivedtournament/summaries/52/23/10/522310_big-lnd.jpg",
+    "poster" : "1974_poster.jpg"
+  },
+
+  {
+    "title" : "1994 FIFA Worldcup",
+    "host" : "USA",
+    "year" : "1994",
+    "champions" : "Brasil",
+    "champion_img" : "http://img.fifa.com/mm/photo/archivedtournament/summaries/52/24/45/522445_full-lnd.jpg",
+    "poster" : "1978_poster.jpg"
+  },
+
+  {
+    "title" : "1998 FIFA Worldcup",
+    "host" : "France",
+    "year" : "1998",
+    "champions" : "France",
+    "champion_img" : "http://img.fifa.com/mm/photo/archivedtournament/summaries/52/28/36/522836_xbig-lnd.jpg",
+    "poster" : "1974_poster.jpg"
+  },
+
+  {
+    "title" : "2002 FIFA Worldcup",
+    "host" : "Korea-Japan",
+    "year" : "2002",
+    "champions" : "Brasil",
+    "champion_img" : "http://img.fifa.com/mm/photo/archivedtournament/summaries/52/31/28/523128_full-lnd.jpg",
+    "poster" : "1978_poster.jpg"
+  },
+
+  {
+    "title" : "2006 FIFA Worldcup",
+    "host" : "Germany",
+    "year" : "2006",
+    "champions" : "Italy",
+    "champion_img" : "http://img.fifa.com/mm/photo/archivedtournament/summaries/52/35/80/523580_full-lnd.jpg",
+    "poster" : "1974_poster.jpg"
+  },
+
+  {
+    "title" : "2010 FIFA Worldcup",
+    "host" : "South Africa",
+    "year" : "2010",
+    "champions" : "Spain",
+    "champion_img" : "http://img.fifa.com/mm/photo/tournament/competition/01/27/31/84/1273184_xbig-lnd.jpg",
+    "poster" : "1978_poster.jpg"
+  },
+
+  {
+    "title" : "2014 FIFA Worldcup",
+    "host" : "Brasil",
+    "year" : "2014",
+    "champions" : "Germany",
+    "champion_img" : "http://img.fifa.com/mm/photo/tournament/competition/02/40/53/48/2405348_xbig-lnd.jpg",
+    "poster" : "1974_poster.jpg"
   }
     ]
 }
