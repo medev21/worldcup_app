@@ -108,10 +108,24 @@ header .header-content .header-content-inner h1 {
     /*bottom: 0;*/
   }
 
+  .copyright-cont{
+    padding-left: 5%;
+    padding-top: 1.5%;
+  }
+
   footer p{
     float: left;
+    font-family: 'brandon-grotesque-black';
+    font-weight: bold;
   }
+
   .social-media-icons{
-    float: right;
+    text-align: right;
+    padding-right: 5%;
+    padding-top: 1%;
+  }
+
+  .social-media-icons a{
+    padding-right: 1%;
   }
 }
