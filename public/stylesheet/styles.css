@@ -38,9 +38,11 @@ header .header-content{
 
 header .header-content .header-content-inner h1 {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 40px;
     text-transform: uppercase;
     font-weight: 700;
+    font-family: avenir-black;
+    color: #f05f40;
 }
 
 /*footer{
@@ -73,23 +75,36 @@ header .header-content .header-content-inner h1 {
     margin-left: auto;
   }
 
-  img{
+  .col-main-center{
+    float: none;
+    margin: 0 auto;
+  }
+
+  /*img{
     height: 80%;
     width: 80%;
-  }
+  }*/
 
   .img-overlay{
     position: relative;
-    /*width: 80%;*/
+    padding: 0;
+    width: 250px;
+    height: 250px;
+    margin: 30px 20px;
+    outline: 1px #000 solid;
+  }
+
+  .poster{
+    height: 100%;
+    width: 100%;
   }
 
   .poster-overlay{
     position: absolute;
     bottom: 0;
-    height: 25%;
+    height: 30%;
     opacity: 0;
-    /*left: 50%;*/
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     background: rgba(0,0,0,0.7);
     color: #fff;
@@ -115,8 +130,9 @@ header .header-content .header-content-inner h1 {
 
   footer p{
     float: left;
-    font-family: 'brandon-grotesque-black';
+    font-family: avenir-black;
     font-weight: bold;
+    text-transform: uppercase;
   }
 
   .social-media-icons{
