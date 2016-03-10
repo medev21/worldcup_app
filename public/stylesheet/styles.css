@@ -99,6 +99,10 @@ header .header-content .header-content-inner h1 {
     width: 100%;
   }
 
+  .worldcup-poster{
+    height: initial;
+  }
+
   .poster-overlay{
     position: absolute;
     bottom: 0;

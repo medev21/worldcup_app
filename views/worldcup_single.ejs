@@ -15,18 +15,29 @@
      </div>
     </header>
 
-    <section id="main">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4">
-            <img src="/images/<%= worldcup.poster %>" alt="" class="img-responsive img-rounded poster"/>
+    <section id="main" style="position: relative;">
+      <div class="container" style="position: absolute; height: 100%; width: 100%;">
+        <div class="row" style="height: 100%;">
+          <div class="col-sm-4" style="height: 100%;">
+            <img src="/images/<%= worldcup.poster %>" alt="" class="img-responsive img-rounded worldcup-poster"/>
           </div>
-          <div class="col-sm-8">
-            <h2>Host</h2>
-            <p><%= worldcup.host %></p>
+          <div class="col-sm-8" style="height: 100%;">
+            <div class="row">
+              <div class="well">
+                <h2>Host</h2>
+                <p><%= worldcup.host %></p>
+              </div>
+            </div>
+
             <br>
-            <h2>Winner</h2>
-            <p><%= worldcup.champions %></p>
+
+            <div class="row">
+              <div class="well">
+                <h2>Winner</h2>
+                <p><%= worldcup.champions %></p>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
