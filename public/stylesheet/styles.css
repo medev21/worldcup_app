@@ -120,6 +120,11 @@ header .header-content .header-content-inner h1 {
   	opacity: 1;
   }
 
+  .host-champ-container, .description-container{
+    margin-top: 60px;
+    margin-right: 100px;
+  }
+
   footer{
     /*position: absolute;*/
     width: 100%;
